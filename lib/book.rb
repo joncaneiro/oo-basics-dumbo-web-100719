@@ -9,7 +9,7 @@ class Book
   attr_accessor :author, :page_count, :genre
   
   def turn_page
-    self.condition = "new"
+    
     puts "Flipping the page...wow, you read fast!"
   end
   
